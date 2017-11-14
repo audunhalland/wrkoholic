@@ -59,6 +59,7 @@ class Stats:
 
 class Wrk:
     def __init__(self):
+        self.version = None
         self.chunks = []
 
 class Chunk:
